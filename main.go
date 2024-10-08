@@ -20,8 +20,8 @@ func main() {
 	config := SSHConfig{
 		Host:     "192.168.1.1",  // Replace with your router's IP
 		Port:     "22",           // SSH port
-		Username: "root",        // Replace with your SSH username
-		Password: "ABCabc12",     // Replace with your SSH password
+		Username: "",        // Replace with your SSH username
+		Password: "",     // Replace with your SSH password
 	}
 
 	// Create SSH client configuration
